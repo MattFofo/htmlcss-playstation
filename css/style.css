@@ -3,15 +3,24 @@
 
 /* utility */
 
-/* .pt-12 {
+.pt-12 {
     padding-top: 20rem;
-} */
+}
 
-
+.mt-6 {
+    margin-top: 6rem;
+}
 
 
 
 /* header */
+
+.header_top_page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 
 .sony_header_logo {
     width: 100px;
