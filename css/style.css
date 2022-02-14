@@ -16,9 +16,7 @@
 .sony_header_logo {
     width: 100px;
     padding-top: 1em;
-    padding-bottom: 1em;
-    
-    
+    padding-bottom: 1em;    
 }
 
 
@@ -31,12 +29,20 @@
     background-size: cover;
     background-position: center;
     background-color: aquamarine;
-    height: 700px;
-    
-    
+    height: 700px;    
 }
 
 
 .returnal_banner_logo {
     width: 300px;
+}
+
+
+
+/* section 3 - playstiotion 5 */
+
+
+.img_playstation_thumb {
+    max-width: 100%;
+    height: auto;
 }
