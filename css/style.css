@@ -39,10 +39,20 @@
 
 
 
-/* section 3 - playstiotion 5 */
+/* section 3 - playstation 5 */
 
 
 .img_playstation_thumb {
     max-width: 100%;
     height: auto;
+}
+
+
+/* section 4 -it takes two */
+
+.section4_cover_img {
+    background-image: url("/img/it-takes-two-hero-banner-desktop.jpg");
+    height: 800px;
+    background-size: cover;
+    background-position: center;
 }
