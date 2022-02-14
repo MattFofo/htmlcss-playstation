@@ -1,3 +1,16 @@
+
+
+
+/* utility */
+
+/* .pt-12 {
+    padding-top: 20rem;
+} */
+
+
+
+
+
 /* header */
 
 .sony_header_logo {
@@ -6,4 +19,24 @@
     padding-bottom: 1em;
     
     
+}
+
+
+
+/* section 1 cover returnal */
+
+
+.section1_cover {
+    background-image: url("/img/returnal-listing-thumb-01-ps5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: aquamarine;
+    height: 700px;
+    
+    
+}
+
+
+.returnal_banner_logo {
+    width: 300px;
 }
