@@ -7,8 +7,8 @@
     padding-top: 20rem;
 }
 
-.mt-6 {
-    margin-top: 6rem;
+.mt-8 {
+    margin-top: 8rem;
 }
 
 
@@ -20,12 +20,17 @@
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1000;
 }
 
 .sony_header_logo {
     width: 100px;
     padding-top: 1em;
     padding-bottom: 1em;    
+}
+
+.btn_search img {
+    width: 2rem;
 }
 
 
