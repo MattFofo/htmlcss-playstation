@@ -69,7 +69,5 @@
 
 .section4_cover_img {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
-    height: 800px;
-    background-size: cover;
-    background-position: center;
+    height: 600px;
 }
