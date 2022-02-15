@@ -173,3 +173,31 @@ h2 {
 .section_9 .ps_now_monthly_game {
     width: 500px;
 }
+
+
+/* footer pagina */
+
+.footer_end_page {
+    background-color: rgb(14, 133, 212);
+}
+
+
+.ps_logo_footer {
+    width: 100px;
+
+}
+
+
+.language_globe_icon {
+    width: 25px;
+}
+
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.sie_logo_footer {
+    width: 200px;
+}
