@@ -150,9 +150,26 @@ h2 {
 /*  section 7 - playstation plus  */
 
 
-.section_7 img {
-    max-width: 100%;
+.section_7 .ps_plus_logo {
+    width: 250px;
     height: auto;
 
 }
 
+.section_7 .ps_plus_monthly_game {
+    width: 500px;
+}
+
+
+/* section 9 - ps now */
+
+
+.section_9 .ps_now_logo {
+    width: 250px;
+    height: auto;
+
+}
+
+.section_9 .ps_now_monthly_game {
+    width: 500px;
+}
