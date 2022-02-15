@@ -134,5 +134,13 @@ h2 {
     border: none;
     overflow: hidden;
 
+}
 
+
+/* sezione 6 - esplora playstation 4  */
+
+
+.section_6 img {
+    max-width: 100%;
+    height: auto;
 }
