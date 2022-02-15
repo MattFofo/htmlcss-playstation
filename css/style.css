@@ -122,3 +122,17 @@ h2 {
 .it_takes_two_logo {
     width: 300px;
 }
+
+
+
+
+/* sezione 5 - nuove uscite */
+
+
+.section_5 .card {
+    border-radius: 15px;
+    border: none;
+    overflow: hidden;
+
+
+}
