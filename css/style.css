@@ -66,6 +66,23 @@ h1 {
 
 
 
+/* section 2 - cards con immagini cover giochi */
+
+
+.section_2 img {
+    border-radius: 15px;
+    border: 2px solid transparent;
+}
+
+.section_2 .card{
+    border-radius: 15px;
+    border: 2px solid blue;
+
+}
+
+
+
+
 /* section 3 - playstation 5 */
 
 
