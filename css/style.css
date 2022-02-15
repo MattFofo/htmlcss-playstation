@@ -126,7 +126,7 @@ h2 {
 
 
 
-/* sezione 5 - nuove uscite */
+/* section 5 - nuove uscite */
 
 
 .section_5 .card {
@@ -137,10 +137,22 @@ h2 {
 }
 
 
-/* sezione 6 - esplora playstation 4  */
+/* section 6 - esplora playstation 4  */
 
 
 .section_6 img {
     max-width: 100%;
     height: auto;
 }
+
+
+
+/*  section 7 - playstation plus  */
+
+
+.section_7 img {
+    max-width: 100%;
+    height: auto;
+
+}
+
