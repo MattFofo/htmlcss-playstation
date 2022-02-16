@@ -1,4 +1,6 @@
-
+:root {
+    --btn_orange_color: rgb(205, 61, 15);
+}
 
 
 
@@ -32,6 +34,10 @@ h2 {
     margin-top: 8rem;
 }
 
+.btn_orange {
+    background-color: var(--btn_orange_color);
+    color: white;
+}
 
 
 
@@ -83,6 +89,16 @@ h2 {
 
 .returnal_banner_logo {
     width: 500px;
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 1198px) {
+
+    .returnal_banner_logo {
+        width: 300px;
+        
+    }
+    
 }
 
 
