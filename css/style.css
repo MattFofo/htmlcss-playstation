@@ -186,6 +186,26 @@ p {
 }
 
 
+.card_section_3_active {
+    border-bottom: 2px solid blue;
+    height: 100%;
+    opacity: 1;
+    
+}
+
+
+.card_section_3 {
+    border-bottom: 2px solid transparent;
+    height: 100%;
+    opacity: 0.7;
+    
+}
+
+.card_section_3:hover {
+    border-bottom: 2px solid blue;
+    opacity: 1;
+    
+}
 
 
 /* section 4 -it takes two */
