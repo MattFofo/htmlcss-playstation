@@ -290,13 +290,19 @@ p {
 }
 
 
+
+.footer_bottom_page_list li{
+    padding: 0.2rem 0;
+}
+
+
 footer a {
     text-decoration: none;
     color: white;
 }
 
 .sie_logo_footer {
-    width: 200px;
+    width: 150px;
 }
 
 
