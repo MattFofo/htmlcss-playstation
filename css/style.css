@@ -316,3 +316,10 @@ footer a {
 .footer_end_page li{
     list-style: none;
 }
+
+
+
+.prova {
+    max-width: 100%;
+    height: auto;
+}
