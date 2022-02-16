@@ -85,6 +85,17 @@ p {
 }
 
 
+.dropdown_hover:hover {
+    box-shadow: 2px 2px 2px 2px grey;
+
+}
+
+
+.dropdown_hover .dropdown-item {
+    background-color: white;
+}
+
+
 /* section 1 cover returnal */
 
 
