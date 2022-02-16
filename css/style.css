@@ -56,6 +56,15 @@ h2 {
 }
 
 
+.list_style_disc {
+    list-style: disc;
+    color: blue;
+}
+
+.list_style_disc li {
+    margin-right: 3rem;
+}
+
 
 /* section 1 cover returnal */
 
@@ -200,4 +209,9 @@ footer a {
 
 .sie_logo_footer {
     width: 200px;
+}
+
+
+.footer_end_page li{
+    list-style: none;
 }
