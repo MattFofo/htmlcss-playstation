@@ -242,6 +242,12 @@ p {
     height: auto;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1198px) {
+    .btn_margin_special {
+        margin-top: 63px;
+    }
+    
+}
 
 
 /*  section 7 - playstation plus  */
