@@ -113,10 +113,24 @@ h2 {
 
 .section_2 .card{
     border-radius: 15px;
+    border: 2px solid transparent;
+    transition: all 0.5s ease-out;
+    bottom: 0;
+
+}
+
+.section_2 .card:active {
+    border-radius: 15px;
     border: 2px solid blue;
 
 }
 
+.section_2 .card:hover {
+
+    bottom: 1.2rem;
+
+
+}
 
 
 
