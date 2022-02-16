@@ -253,7 +253,8 @@ p {
 }
 
 .section_7 .ps_plus_monthly_game {
-    width: 500px;
+    width: 450px;
+    height: 100%;
 }
 
 
@@ -267,7 +268,7 @@ p {
 }
 
 .section_9 .ps_now_monthly_game {
-    width: 500px;
+    width: 450px;
 }
 
 
