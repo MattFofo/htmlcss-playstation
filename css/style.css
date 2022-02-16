@@ -52,6 +52,14 @@ p {
     color: white;
 }
 
+.btn_dark {
+    border: 1px solid #1C1F23;
+}
+
+
+.btn_dark:hover {
+    border: 1px solid white;
+}
 
 
 /* header */
@@ -93,6 +101,12 @@ p {
 
 .dropdown_hover .dropdown-item {
     background-color: white;
+}
+
+
+.btn_dark_hover {
+    border: 3px solid #1C1F23;
+    border-radius: 50rem;
 }
 
 
