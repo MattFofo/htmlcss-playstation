@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Booleanstacion</title>
 
+        <!-- bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
+        <!-- fontawesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 
 
         <link rel="stylesheet" href="css/style.css">
@@ -17,408 +24,412 @@
 
     <body>
 
-            <!-- header -->
-            <header class="header_top_page">
-                <div class="container-fluid bg-black">
+        <!-- header -->
+        <header class="header_top_page">
+            <div class="container-fluid bg-black">
+
+                <!-- parte nera header -->
+                <div class="row justify-content-end">
+
+                    <!-- logo sony -->
+                    <div class="col-4 text-end">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="sony_header_logo" viewBox="0 0 500 88.03"><defs><style>.cls-1{fill:#fff}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="logo"><path class="cls-1" d="M178.13 88C160 88 143.2 82.6 132 72.53a37.85 37.85 0 0 1-12.55-28.59A38.41 38.41 0 0 1 132 15.45C142.4 6 160.8 0 178.13 0c19.17 0 34.52 4.83 46.25 15.47a38.05 38.05 0 0 1 12.38 28.47 39.66 39.66 0 0 1-12.38 28.59C213.45 82.66 196.29 88 178.13 88V76.42c9.61 0 18.53-3.32 24.76-9.52s9.06-13.72 9.06-23c0-8.86-3.11-17.14-9.06-23-6.15-6.05-15.28-9.46-24.76-9.46s-18.65 3.38-24.8 9.46c-5.93 5.87-9 14.18-9 23a32.17 32.17 0 0 0 9 23c6.15 6.13 15.26 9.52 24.8 9.52zM45.75 0c-9.69 0-20.7 1.82-30 6C7.07 9.88 0 16.11 0 26.44A21.18 21.18 0 0 0 5.75 41c2.51 2.32 6.56 6.26 17.14 8.58 4.73 1 14.84 2.61 24.91 3.67s19.83 2 23.83 3.07c3.18.81 8.53 1.91 8.53 7.91s-5.63 7.8-6.61 8.19-7.74 3.49-19.88 3.49A84.54 84.54 0 0 1 30 71.84c-4.53-1.62-9.28-3.75-13.71-9.16A15.73 15.73 0 0 1 13.44 54h-11v30.8h12.22v-4.17a1.74 1.74 0 0 1 2.64-1.5 96.26 96.26 0 0 0 17.88 5.78c6.42 1.34 10.57 2.31 18.55 2.31a79.15 79.15 0 0 0 24.86-3.51 43.39 43.39 0 0 0 14.77-7.29 20.24 20.24 0 0 0 7.91-16.21 22.68 22.68 0 0 0-6.39-15.94A28.13 28.13 0 0 0 87 38.88a58.05 58.05 0 0 0-9.72-3.39C70.94 33.94 56.7 32 49.89 31.32c-7.14-.74-19.53-1.77-24.48-3.3-1.5-.47-4.56-1.92-4.56-5.47 0-2.53 1.4-4.67 4.16-6.4 4.39-2.75 13.25-4.46 22.49-4.46a65.23 65.23 0 0 1 26.06 5.09 28.46 28.46 0 0 1 6.2 3.7 18.64 18.64 0 0 1 6.11 10.22h9.87V3.89h-11V7c0 1-1 2.32-3 1.23C76.78 5.65 62.84.07 45.75 0zM287.24 4.92L341 53.43l-.55-32.66c-.06-4.29-.84-6.08-5.48-6.08h-10.1V4.92h46v9.77H361c-4.72 0-5 1.52-5.08 6.08l.83 62.41H341l-61.93-55.26v39.21c.05 4.27.25 6.28 4.64 6.28h11v9.77h-45.09v-9.77h10.56c3.94 0 3.78-3.76 3.78-6.5V21.14c0-3-.42-6.44-6.6-6.44h-8.56V4.92zM423.35 73.39a21.82 21.82 0 0 0 2.72-.17 3.37 3.37 0 0 0 2.12-1.88 10.94 10.94 0 0 0 .21-2.11V53.78c0-.52 0-.53-.66-1.35s-28.16-32-29.41-33.4c-1.56-1.7-4.3-4.33-8.47-4.33h-9.55V4.92h53.9v9.76h-6.5c-1.5 0-2.5 1.43-1.22 3 0 0 18.14 21.7 18.31 21.93s.32.28.55.07 18.59-21.8 18.73-22a1.87 1.87 0 0 0-1.6-3h-6.67V4.92H500v9.78h-9.87c-3.58 0-5 .66-7.73 3.7l-29.75 33.94a2.1 2.1 0 0 0-.36 1.44v15.44a11 11 0 0 0 .22 2.11 3.33 3.33 0 0 0 2.11 1.88 19.77 19.77 0 0 0 2.7.17h10.09v9.78h-53.62v-9.78z"/></g></g></svg>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- navbar -->
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-white"> <!--TODO:-->
+                <div class="container-fluid">
+
+                    <a class="navbar-brand" href="#">
+                        <img src="img/play_logo.svg" alt="">
+                    </a>
     
-                    <!-- parte nera header -->
-                    <div class="row justify-content-end">
-    
-                        <!-- logo sony -->
-                        <div class="col-4 text-end">
-    
-                            <svg xmlns="http://www.w3.org/2000/svg" class="sony_header_logo" viewBox="0 0 500 88.03"><defs><style>.cls-1{fill:#fff}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="logo"><path class="cls-1" d="M178.13 88C160 88 143.2 82.6 132 72.53a37.85 37.85 0 0 1-12.55-28.59A38.41 38.41 0 0 1 132 15.45C142.4 6 160.8 0 178.13 0c19.17 0 34.52 4.83 46.25 15.47a38.05 38.05 0 0 1 12.38 28.47 39.66 39.66 0 0 1-12.38 28.59C213.45 82.66 196.29 88 178.13 88V76.42c9.61 0 18.53-3.32 24.76-9.52s9.06-13.72 9.06-23c0-8.86-3.11-17.14-9.06-23-6.15-6.05-15.28-9.46-24.76-9.46s-18.65 3.38-24.8 9.46c-5.93 5.87-9 14.18-9 23a32.17 32.17 0 0 0 9 23c6.15 6.13 15.26 9.52 24.8 9.52zM45.75 0c-9.69 0-20.7 1.82-30 6C7.07 9.88 0 16.11 0 26.44A21.18 21.18 0 0 0 5.75 41c2.51 2.32 6.56 6.26 17.14 8.58 4.73 1 14.84 2.61 24.91 3.67s19.83 2 23.83 3.07c3.18.81 8.53 1.91 8.53 7.91s-5.63 7.8-6.61 8.19-7.74 3.49-19.88 3.49A84.54 84.54 0 0 1 30 71.84c-4.53-1.62-9.28-3.75-13.71-9.16A15.73 15.73 0 0 1 13.44 54h-11v30.8h12.22v-4.17a1.74 1.74 0 0 1 2.64-1.5 96.26 96.26 0 0 0 17.88 5.78c6.42 1.34 10.57 2.31 18.55 2.31a79.15 79.15 0 0 0 24.86-3.51 43.39 43.39 0 0 0 14.77-7.29 20.24 20.24 0 0 0 7.91-16.21 22.68 22.68 0 0 0-6.39-15.94A28.13 28.13 0 0 0 87 38.88a58.05 58.05 0 0 0-9.72-3.39C70.94 33.94 56.7 32 49.89 31.32c-7.14-.74-19.53-1.77-24.48-3.3-1.5-.47-4.56-1.92-4.56-5.47 0-2.53 1.4-4.67 4.16-6.4 4.39-2.75 13.25-4.46 22.49-4.46a65.23 65.23 0 0 1 26.06 5.09 28.46 28.46 0 0 1 6.2 3.7 18.64 18.64 0 0 1 6.11 10.22h9.87V3.89h-11V7c0 1-1 2.32-3 1.23C76.78 5.65 62.84.07 45.75 0zM287.24 4.92L341 53.43l-.55-32.66c-.06-4.29-.84-6.08-5.48-6.08h-10.1V4.92h46v9.77H361c-4.72 0-5 1.52-5.08 6.08l.83 62.41H341l-61.93-55.26v39.21c.05 4.27.25 6.28 4.64 6.28h11v9.77h-45.09v-9.77h10.56c3.94 0 3.78-3.76 3.78-6.5V21.14c0-3-.42-6.44-6.6-6.44h-8.56V4.92zM423.35 73.39a21.82 21.82 0 0 0 2.72-.17 3.37 3.37 0 0 0 2.12-1.88 10.94 10.94 0 0 0 .21-2.11V53.78c0-.52 0-.53-.66-1.35s-28.16-32-29.41-33.4c-1.56-1.7-4.3-4.33-8.47-4.33h-9.55V4.92h53.9v9.76h-6.5c-1.5 0-2.5 1.43-1.22 3 0 0 18.14 21.7 18.31 21.93s.32.28.55.07 18.59-21.8 18.73-22a1.87 1.87 0 0 0-1.6-3h-6.67V4.92H500v9.78h-9.87c-3.58 0-5 .66-7.73 3.7l-29.75 33.94a2.1 2.1 0 0 0-.36 1.44v15.44a11 11 0 0 0 .22 2.11 3.33 3.33 0 0 0 2.11 1.88 19.77 19.77 0 0 0 2.7.17h10.09v9.78h-53.62v-9.78z"/></g></g></svg>
-    
-                        </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
     
     
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav mr-auto">
+    
+                            <li class="nav-item dropdown position-static">
+
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Giochi
+                                </a>
+
+                                <ul class="dropdown-menu w-100 text-center border-0 mt-0" aria-labelledby="navbarDropdown">
+
+                                    <ul class="list-inline">
+
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+    
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+    
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <li><hr class="dropdown-divider"></li>
+
+                                    <ul class="d-flex justify-content-center list_style_disc">
+
+                                        <li class="">
+                                            <a class="dropdown-item" href="#">Link Giochi</a>
+                                        </li>
+
+                                        <li class="">
+                                            <a class="dropdown-item" href="#">Link Giochi</a>
+                                        </li>
+
+                                        <li class="">
+                                            <a class="dropdown-item" href="#">Link Giochi</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown position-static">
+
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Hardware
+                                </a>
+
+                                <ul class="dropdown-menu w-100 text-center border-0 mt-0" aria-labelledby="navbarDropdown">
+
+                                    <ul class="list-inline">
+
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+    
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+    
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <li><hr class="dropdown-divider"></li>
+
+                                    <ul class="d-flex justify-content-center list_style_disc">
+
+                                        <li class="">
+                                            <a class="dropdown-item" href="#">Link Hardware</a>
+                                        </li>
+
+                                        <li class="">
+                                            <a class="dropdown-item" href="#">Link Hardware</a>
+                                        </li>
+
+                                        <li class="">
+                                            <a class="dropdown-item" href="#">Link Hardware</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown position-static">
+
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Servizi
+                                </a>
+
+                                <ul class="dropdown-menu w-100 text-center border-0 mt-0" aria-labelledby="navbarDropdown">
+
+                                    <ul class="list-inline">
+
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+    
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+    
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <li><hr class="dropdown-divider"></li>
+
+                                    <ul class="d-flex justify-content-center list_style_disc">
+
+                                        <li class="">
+                                            <a class="dropdown-item" href="#">Link Servizi</a>
+                                        </li>
+
+                                        <li class="">
+                                            <a class="dropdown-item" href="#">Link Servizi</a>
+                                        </li>
+
+                                        <li class="">
+                                            <a class="dropdown-item" href="#">Link Servizi</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown position-static">
+
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Novità
+                                </a>
+
+                                <ul class="dropdown-menu w-100 text-center border-0 mt-0" aria-labelledby="navbarDropdown">
+
+                                    <ul class="list-inline">
+
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+    
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+    
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <li><hr class="dropdown-divider"></li>
+
+                                    <ul class="d-flex justify-content-center list_style_disc">
+
+                                        <li class="">
+                                            <a class="dropdown-item" href="#">Link Novità</a>
+                                        </li>
+
+                                        <li class="">
+                                            <a class="dropdown-item" href="#">Link Novità</a>
+                                        </li>
+
+                                        <li class="">
+                                            <a class="dropdown-item" href="#">Link Novità</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown position-static">
+
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Fai Acquisti
+                                </a>
+
+                                <ul class="dropdown-menu w-100 text-center border-0 mt-0" aria-labelledby="navbarDropdown">
+
+                                    <ul class="list-inline">
+
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+    
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+    
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <li><hr class="dropdown-divider"></li>
+
+                                    <ul class="d-flex justify-content-center list_style_disc">
+
+                                        <li class="">
+                                            <a class="dropdown-item" href="#">Link Fai Acquisti</a>
+                                        </li>
+
+                                        <li class="">
+                                            <a class="dropdown-item" href="#">Link Fai Acquisti</a>
+                                        </li>
+
+                                        <li class="">
+                                            <a class="dropdown-item" href="#">Link Fai Acquisti</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown position-static">
+
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Supporto
+                                </a>
+
+                                <ul class="dropdown-menu w-100 text-center border-0 mt-0" aria-labelledby="navbarDropdown">
+
+                                    <ul class="list-inline">
+
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+    
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+    
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <li><hr class="dropdown-divider"></li>
+
+                                    <ul class="d-flex justify-content-center list_style_disc">
+
+                                        <li class="">
+                                            <a class="dropdown-item" href="#">Link Giochi</a>
+                                        </li>
+
+                                        <li class="">
+                                            <a class="dropdown-item" href="#">Link Giochi</a>
+                                        </li>
+
+                                        <li class="">
+                                            <a class="dropdown-item" href="#">Link Giochi</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+    
+
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto align-items-center">
+                            <li class="nav-item dropdown position-static">
+
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  My Playstation
+                                </a>
+
+                                <ul class="dropdown-menu w-100 text-center border-0 mt-0" aria-labelledby="navbarDropdown">
+
+                                    <ul class="list-inline">
+
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+    
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+    
+                                        <li class="list-inline-item dropdown_hover">
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="">
+                                                <div>Playstation 5</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </ul>
+                            </li>
+                            
+                            <li>
+                                <div class="btn_dark_hover">
+                                    <button class="btn btn-dark btn_dark rounded-pill" type="button">ACCEDI</button>
+                                </div>
+                                
+                            </li>
+                            
+                            <li>
+                                
+                                <button class="btn btn_search px-3">
+                                    <img src="img/lens.svg" alt="">
+                                </button>
+                            </li>
+
+                        </ul>
                     </div>
                 </div>
-    
-                <!-- navbar -->
-    
-                <nav class="navbar navbar-expand-lg navbar-light bg-white"> <!--TODO:-->
-                    <div class="container-fluid">
-    
-                        <a class="navbar-brand" href="#">
-                            <img src="img/play_logo.svg" alt="">
-                        </a>
-        
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-        
-        
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    
-                            <ul class="navbar-nav mr-auto">
-        
-                                <li class="nav-item dropdown position-static">
-    
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Giochi
-                                    </a>
-    
-                                    <ul class="dropdown-menu w-100 text-center border-0 mt-0" aria-labelledby="navbarDropdown">
-    
-                                        <ul class="list-inline">
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-        
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-        
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-                                        </ul>
-    
-                                        <li><hr class="dropdown-divider"></li>
-    
-                                        <ul class="list-inline">
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">Link Giochi</a>
-                                            </li>
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">Link Giochi</a>
-                                            </li>
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">Link Giochi</a>
-                                            </li>
-                                            
-                                        </ul>
-                                    </ul>
-                                </li>
-    
-                                <li class="nav-item dropdown position-static">
-    
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Hardware
-                                    </a>
-    
-                                    <ul class="dropdown-menu w-100 text-center border-0 mt-0" aria-labelledby="navbarDropdown">
-    
-                                        <ul class="list-inline">
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-        
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-        
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-                                        </ul>
-    
-                                        <li><hr class="dropdown-divider"></li>
-    
-                                        <ul class="list-inline">
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">Link Hardware</a>
-                                            </li>
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">Link Hardware</a>
-                                            </li>
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">Link Hardware</a>
-                                            </li>
-                                            
-                                        </ul>
-                                    </ul>
-                                </li>
-    
-                                <li class="nav-item dropdown position-static">
-    
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Servizi
-                                    </a>
-    
-                                    <ul class="dropdown-menu w-100 text-center border-0 mt-0" aria-labelledby="navbarDropdown">
-    
-                                        <ul class="list-inline">
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-        
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-        
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-                                        </ul>
-    
-                                        <li><hr class="dropdown-divider"></li>
-    
-                                        <ul class="list-inline">
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">Link Servizi</a>
-                                            </li>
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">Link Servizi</a>
-                                            </li>
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">Link Servizi</a>
-                                            </li>
-                                            
-                                        </ul>
-                                    </ul>
-                                </li>
-    
-                                <li class="nav-item dropdown position-static">
-    
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Novità
-                                    </a>
-    
-                                    <ul class="dropdown-menu w-100 text-center border-0 mt-0" aria-labelledby="navbarDropdown">
-    
-                                        <ul class="list-inline">
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-        
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-        
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-                                        </ul>
-    
-                                        <li><hr class="dropdown-divider"></li>
-    
-                                        <ul class="list-inline">
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">Link Novità</a>
-                                            </li>
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">Link Novità</a>
-                                            </li>
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">Link Novità</a>
-                                            </li>
-                                            
-                                        </ul>
-                                    </ul>
-                                </li>
-    
-                                <li class="nav-item dropdown position-static">
-    
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Fai Acquisti
-                                    </a>
-    
-                                    <ul class="dropdown-menu w-100 text-center border-0 mt-0" aria-labelledby="navbarDropdown">
-    
-                                        <ul class="list-inline">
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-        
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-        
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-                                        </ul>
-    
-                                        <li><hr class="dropdown-divider"></li>
-    
-                                        <ul class="list-inline">
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">Link Fai Acquisti</a>
-                                            </li>
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">Link Fai Acquisti</a>
-                                            </li>
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">Link Fai Acquisti</a>
-                                            </li>
-                                            
-                                        </ul>
-                                    </ul>
-                                </li>
-    
-                                <li class="nav-item dropdown position-static">
-    
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      Supporto
-                                    </a>
-    
-                                    <ul class="dropdown-menu w-100 text-center border-0 mt-0" aria-labelledby="navbarDropdown">
-    
-                                        <ul class="list-inline">
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-        
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-        
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-                                        </ul>
-    
-                                        <li><hr class="dropdown-divider"></li>
-    
-                                        <ul class="list-inline">
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">Link Supporto</a>
-                                            </li>
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">Link Supporto</a>
-                                            </li>
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">Link Supporto</a>
-                                            </li>
-                                            
-                                        </ul>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-        
-    
-                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto align-items-center">
-                                <li class="nav-item dropdown position-static">
-    
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                      My Playstation
-                                    </a>
-    
-                                    <ul class="dropdown-menu w-100 text-center border-0 mt-0" aria-labelledby="navbarDropdown">
-    
-                                        <ul class="list-inline">
-    
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-        
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-        
-                                            <li class="list-inline-item">
-                                                <a class="dropdown-item" href="#">
-                                                    <img src="img/play-menu-ico.png" alt="">
-                                                    <div>Playstation 5</div>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                
-                                <li>
-                                    <button class="btn btn-dark rounded-pill" type="button">ACCEDI</button>
-                                </li>
-                                
-                                <li>
-                                    <button class="btn btn_search px-3">
-                                        <img src="img/lens.svg" alt="">
-                                    </button>
-                                </li>
-    
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </header>
+            </nav>
+        </header>
 
 
         <!-- section 1 - immagine cover returnal -->
@@ -435,17 +446,23 @@
 
                     <div class="col-12"><h1>Rompi Il Cerchio</h1></div>
 
-                    <div class="col-12 col-lg-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto placeat officiis animi in enim sint. Laudantium delectus voluptates, numquam unde ducimus aliquid placeat aut accusamus autem ipsa obcaecati libero quisquam.</div>
+                    <div class="col-12 col-lg-6">
+                        <p class="text-white fs-6">
+                            Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.
+                        </p>
+                    </div>
 
                     <div class="col-12 py-5">
-                        <button class="btn btn_orange rounded-pill" type="button">Acquista ora</button>
+                        <div class="d-inline-block btn_orange_hover">
+                            <button class="btn btn_orange rounded-pill" type="button">Acquista ora</button>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
 
 
         </section>
-
 
 
         <!-- section 2 - 6 cards con immagini cover giochi -->
@@ -457,9 +474,9 @@
 
                 <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6 g-3">
 
-                    <div class="col">
+                    <div class="col position-relative">
                         <div class="card">
-                            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+                            <img class="" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
                         </div>
                     </div>
 
@@ -499,24 +516,26 @@
 
         </section>
 
-        
+
 
         <!-- section 3 - playstation 5 -->
 
-        <section class="jumbotron py-7">
+        <section class="jumbotron section_3 py-5">
             <div class="container">
 
                 <!-- parte alta della sezione  -->
                 <div class="row text-center">
 
-                    <div class="col-12 section3_pretitle">Play has no limits</div>
+                    <div class="col-12">
+                        <div class="section3_pretitle text-uppercase">Play has no limits</div>
+                    </div>
 
                     <div class="col-12">
                         <h2>Ecco la playstation 5</h2>
                     </div>
 
                     <div class="col-12">
-                        <p>tuffati in nuove possibilità di gioco completamente inaspettate</p>
+                        <p>Tuffati in nuove possibilità di gioco completamente inaspettate</p>
                     </div>
 
                 </div>
@@ -528,9 +547,12 @@
                     <div class="col-12 col-md-6">
                         <h2 class="pt-5">Console Playstation 5</h2>
 
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum perferendis quo adipisci aliquid laborum debitisr.</p>
+                        <p>Sperimenta la nuova generazione di incredibili giochi Playstation.</p>
 
-                        <button class="btn btn-dark rounded-pill" type="button">Maggiori informazioni</button>
+                        <div class="d-inline-block btn_primary_hover rounded-pill">
+                            <button class="btn btn-primary btn_primary rounded-pill" type="button">Maggiori informazioni</button>
+                        </div>
+                        
                     </div>
 
                     <div class="col-12 col-md-6">
@@ -541,44 +563,55 @@
                 <!-- cards con immagini prodotti play 5 -->
                 <div class="row row-cols-3 row-cols-md-5">
 
-                    <div class="col">
+                    <div class="col text-center">
+                        <div class="card_section_3_active">
 
-                        <div class="card">
-                            <img src="img/playstation-5-thumb.png" alt="">
+                            <div class="card border-0">
+                                <img class="" src="img/playstation-5-thumb.png" alt="">
+    
+                                <div class="pt-3">Console PS5</div>
+                            </div>
                         </div>
-
                     </div>
 
-                    <div class="col">
+                    <div class="col text-center">
+                        <div class="card_section_3">
 
-                        <div class="card">
-                            <img src="img/playstation-5-thumb.png" alt="">
+                            <div class="card border-0">
+                                <img class="" src="img/joypad-thumb.png" alt="">
+    
+                                <div class="pt-3">Controller wireless Dualsense&trade;</div>
+                            </div>
                         </div>
+                    </div>
+                    
+                    <div class="col text-center">
+                        <div class="card_section_3">
 
+                            <div class="card border-0">
+                                <img class="" src="img/headset-thumb.png" alt="">
+    
+                                <div class="pt-3">Cuffie wireless con microfono PULSE&trade;</div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col">
-
-                        <div class="card">
-                            <img src="img/playstation-5-thumb.png" alt="">
+                    <div class="col text-center">
+                        <div class="card_section_3">
+                            <div class="card card_section_3 border-0">
+                                <img class="" src="img/remote-thumb.png" alt="">
+                                <div class="pt-3">Telecomando Media</div>
+                            </div>
                         </div>
-
                     </div>
 
-                    <div class="col">
-
-                        <div class="card">
-                            <img src="img/playstation-5-thumb.png" alt="">
+                    <div class="col text-center">
+                        <div class="card_section_3">
+                            <div class="card card_section_3 border-0">
+                                <img class="" src="img/camera-thumb.jpg" alt="">
+                                <div class="pt-3">Telecamera HD</div>
+                            </div>
                         </div>
-
-                    </div>
-
-                    <div class="col">
-
-                        <div class="card">
-                            <img src="img/playstation-5-thumb.png" alt="">
-                        </div>
-
                     </div>
                 </div>
             </div>
@@ -598,33 +631,550 @@
                         <img src="img/it-takes-two-logo.png" class="it_takes_two_logo" alt="">
                     </div>
 
-                    <div class="col-12"><h1>Rompi Il Cerchio</h1></div>
+                    <div class="col-12 col-lg-9">
+                        <h1>Un'avventura coperativa selvaggia ti attende</h1>
+                    </div>
 
-                    <div class="col-12">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto placeat officiis animi in enim sint. Laudantium delectus voluptates, numquam unde ducimus aliquid placeat aut accusamus autem ipsa obcaecati libero quisquam.</div>
+                    <div class="col-12 col-lg-4">
+                        <p class="text-white fs-6">Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco di avventura cooperativa a piattaforme che stravolge il suo genere.</p>
+                    </div>
 
                     <div class="col-12 pt-4 pb-5">
-                        <button class="btn btn-light rounded-pill" type="button">Acquista ora</button>
+
+                        <div class="d-inline-block btn_orange_hover">
+                            <button class="btn btn_orange rounded-pill" type="button">Acquista ora</button>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
-
-
         </section>
 
+
+
+        <!-- section 5 - nuove uscite -->
+
+        <section class="jumbotron section_5 bg-dark text-white py-5">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col12">
+                        <h2>Nuove Uscite</h2>
+                    </div>
+
+                    <div class="col12">
+                        <div class="pb-3">Giochi incredibili per PS4 PS5 disponibili ora</div>
+                    </div>
+                </div>
+    
+                <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6 g-3">
+    
+                    <div class="col hover_scale_up">
+
+                        <div class="card">
+                            <a class="display_contents" href="">
+                                <img class="" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div>
+                            Tony Hawks&trade; Proskater&trade; 1 + 2
+                        </div>
+                    </div>
+    
+                    <div class="col hover_scale_up">
+
+                        <div class="card">
+                            <a href="" class="display_contents">
+                                <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div>
+                            Crash Bandicoot 4: It's about time
+                        </div>
+                    </div>
+
+                    <div class="col hover_scale_up">
+
+                        <div class="card">
+                            <a href="" class="display_contents">
+                                <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div>
+                            Tony Hawks&trade; Proskater&trade; 1 + 2
+                        </div>
+                    </div>
+    
+                    <div class="col hover_scale_up">
+
+                        <div class="card">
+                            <a href="" class="display_contents">
+                                <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div>
+                            Crash Bandicoot 4: It's about time
+                        </div>
+                    </div>
+
+                    <div class="col hover_scale_up">
+
+                        <div class="card">
+                            <a href="" class="display_contents">
+                                <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div>
+                            Tony Hawks&trade; Proskater&trade; 1 + 2
+                        </div>
+                    </div>
+    
+                    <div class="col hover_scale_up">
+
+                        <div class="card">
+                            <a href="" class="display_contents">
+                                <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                            </a>  
+                        </div>
+
+                        <div>
+                            Crash Bandicoot 4: It's about time
+                        </div>
+                    </div>
+
+                    <div class="col hover_scale_up">
+
+                        <div class="card">
+                            <a href="" class="display_contents">
+                                <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                            </a> 
+                        </div>
+
+                        <div>
+                            Tony Hawks&trade; Proskater&trade; 1 + 2
+                        </div>
+                    </div>
+    
+                    <div class="col hover_scale_up">
+                        
+                        <div class="card">
+                            <a href="" class="display_contents">
+                                <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                            </a>     
+                        </div>
+
+                        <div>
+                            Crash Bandicoot 4: It's about time
+                        </div>
+                    </div>
+
+                    <div class="col hover_scale_up">
+
+                        <div class="card">
+                            <a href="" class="display_contents">
+                                <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                            </a>   
+                        </div>
+
+                        <div>
+                            Tony Hawks&trade; Proskater&trade; 1 + 2
+                        </div>
+                    </div>
+    
+                    <div class="col hover_scale_up">
+
+                        <div class="card">
+                            <a href="" class="display_contents">
+                                <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div>
+                            Crash Bandicoot 4: It's about time
+                        </div>
+                    </div>
+
+                    <div class="col hover_scale_up">
+
+                        <div class="card">
+                            <a href="" class="display_contents">
+                                <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+                            </a> 
+                        </div>
+
+                        <div>
+                            Tony Hawks&trade; Proskater&trade; 1 + 2
+                        </div>
+                    </div>
+    
+                    <div class="col hover_scale_up">
+
+                        <div class="card">
+                            <a href="" class="display_contents">
+                                <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+                            </a>
+                        </div>
+
+                        <div>
+                            Crash Bandicoot 4: It's about time
+                        </div>
+                    </div>
+                </div>     
+            </div>
+            
+
+            
+        </section>
+
+
+
+        <!-- section 6 - esplora playstation 4 -->
+
+        <section class="jumbotron section_6 py-3 pb-5">
+
+            <div class="container">
+
+                <div class="row text-center pb-5">
+
+                    <div class="col-12">
+                        <h1>Esplora Playstation 4</h1>
+                    </div>
+
+                    <div class="col-12">
+                        <p>
+                            Giochi incredibili ed intrattenimento senza fine. 
+                            Non c'è mai stato un momento migliore per giocare alla tua PS4.
+                        </p>
+                        
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-12 col-md-4">
+
+                        <div class="">
+                            <img src="img/ps4-slim-homepage-image-block.jpg" alt="">
+                        </div>
+                        
+                        <div class="">
+                            <h2 class="pt-5">Playstation 4</h2>
+    
+                            <p>Giochi incredibili Live su PlayStation 4, con 1 TB di spazio di archiviazione.</p>
+
+                            <div class="d-inline-block btn_primary_hover">
+                                <button class="btn btn-primary btn_primary rounded-pill" type="button">Scopri di più</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="col-12 col-md-4">
+                        <div class="">
+                            <img src="img/double11-202010-tw-psvr.jpg" alt="">
+                        </div>
+    
+                        <div class="">
+                            <h2 class="pt-5">PlayStation VR</h2>
+    
+                            <p>Oltre 500 titoli ed esperienze di gioco.</p>
+    
+                            <div class="d-inline-block btn_primary_hover">
+                                <button class="btn btn-primary btn_primary rounded-pill" type="button">Scopri di più</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="">
+                            <img src="img/dualshock-4-listing-thumb.jpg" alt="">
+                        </div>
+    
+                        <div class="">
+                            <h2 class="pt-5">Acessori</h2>
+    
+                            <p>Migliora la tua esperienza PS4 con una gamma di acessori ufficiali.</p>
+    
+                            <div class="d-inline-block btn_primary_hover">
+                                <button class="btn btn-primary btn_primary rounded-pill" type="button">Scopri di più</button>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- section 7 - playstation plus -->
+
+
+        <section class="jumbotron section_7 text-white">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-12 col-md-6">
+                        <div class="col-12 pt-5">
+                            <img class="ps_plus_logo" src="img/ps-plus-logo.png" alt="">
+                        </div>
+    
+                        <div class="col-12">
+                            <p>Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
+                        </div>
+    
+                        <div class="col-12 py-5">
+
+                            <div class="d-inline-block btn_light_1_hover">
+                                <button class="btn  btn_light_1 rounded-pill" type="button">Esplora PlayStation Plus</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 d-none d-md-block d-flex">
+                        <img class="ps_plus_monthly_game" src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- section 8 - ps store -->
+
+        <section class="jumbotron section_6 py-3 pb-5">
+
+            <div class="container">
+
+                <div class="row text-center">
+
+                    <div class="col-12">
+                        <h1>Nuovi sconti sul PlayStation Store</h1>
+                    </div>
+
+                    <div class="col-12">
+                        <p class="fs-4 pb-5 lh-sm">
+                            Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4 e PS VR, tutti in un unico posto.
+                        </p>
+                        
+                    </div>
+                </div>
+
+                <div class="row gy-4">
+
+                    <div class="col-12 col-md-4">
+                        <a href="">
+                            <img class="hover_scale_up" src="img/playstation-store-free-to-play-spotlight.png" alt="">
+                        </a>
+                    </div>
+                    
+                    
+
+                    <div class="col-12 col-md-4">
+                        <a href="">
+                            <img class="hover_scale_up" src="img/playstation-store-games-under-20-spotlight.jpg" alt="">
+                        </a>
+                    </div>
+
+                    
+
+                    <div class="col-12 col-md-4">
+                        <a href="!#">
+                            <img class="hover_scale_up" src="img/playstation-store-golden-week-sale-spotlight.jpg" alt="">
+                        </a>    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- section 9 - ps now -->
+
+
+        <section class="jumbotron section_9 text-white">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-12 col-md-6">
+                        <div class="col-12 pt-5">
+                            <img class="ps_now_logo" src="img/ps-now-logo-two-column.png" alt="">
+                        </div>
+    
+                        <div class="col-12">
+                            <p>Ottieni l'accesso immediato ad una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
+                        </div>
+    
+                        <div class="col-12 py-5">
+                            <div class="d-inline-block btn_light_2_hover">
+                                <button class="btn btn_light_2 rounded-pill" type="button">Acquista ora</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-6 d-none d-md-block">
+                        <img class="ps_now_monthly_game" src="img/ps-now-april-featured-image-block.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- section 10 - socials -->
+
+        <section class="jumbotron py-5">
+
+            <div class="container">
+
+                <div class="row text-center gy-5">
+                    <div class="col-12">
+                        <h2>Seguici sui Social Media</h2>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <a href="!#" class="display_contents">
+                            <img class="social_icon w-100 hover_scale_up" src="img/twitter.jpg" alt="">
+                        </a>    
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <a href="!#" class="display_contents">
+                            <img class="social_icon w-100 hover_scale_up" src="img/facebook.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <a href="!#" class="display_contents">
+                            <img class="social_icon w-100 hover_scale_up" src="img/instagram.jpg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <a href="!#" class="display_content">
+                            <img class="social_icon w-100 hover_scale_up" src="img/youtube.png" alt="">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- footer pagina -->
+
+        <footer class="footer_end_page bg-blu text-white py-5">
+
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="col-12">
+                            <img class="ps_logo_footer" src="img/ps-footer.svg" alt="">
+                        </div>
+    
+                        <div class="col-12 py-5">
+                            <div class="d-inline-block">
+                                <img class="language_globe_icon" src="img/language-globe.svg" alt="">
+                            </div>
+    
+                            <div class="d-inline-block">
+                                Country/Region: Italy
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="col-12 col-lg-6 d-md-flex justify-content-between">
+                        <ul class="footer_bottom_page_list">
+                            <li>
+                                <a class="text-decoration-none link-light" href="">link footer n</a>
+                            </li>
+
+                            <li>
+                                <a class="text-decoration-none link-light" href="">link footer n</a>
+                            </li>
+
+                            <li>
+                                <a class="text-decoration-none link-light" href="">link footer n</a>
+                            </li>
+
+                            <li>
+                                <a class="text-decoration-none link-light" href="">link footer n</a>
+                            </li>
+                        </ul>
+
+                        <ul class="footer_bottom_page_list">
+                            <li>
+                                <a class="text-decoration-none link-light" href="">link footer n</a>
+                            </li>
+
+                            <li>
+                                <a class="text-decoration-none link-light" href="">link footer n</a>
+                            </li>
+
+                            <li>
+                                <a class="text-decoration-none link-light" href="">link footer n</a>
+                            </li>
+
+                            <li>
+                                <a class="text-decoration-none link-light" href="">link footer n</a>
+                            </li>
+                        </ul>
+
+                        <ul class="footer_bottom_page_list">
+                            <li>
+                                <a class="text-decoration-none link-light" href="">link footer n</a>
+                            </li>
+
+                            <li>
+                                <a class="text-decoration-none link-light" href="">link footer n</a>
+                            </li>
+
+                            <li>
+                                <a class="text-decoration-none link-light" href="">link footer n</a>
+                            </li>
+
+                            <li>
+                                <a class="text-decoration-none link-light" href="">link footer n</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row py-5">
+                    <div class="col-12 col-lg-6">
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="sie_logo_footer" src="img/sie-logo.svg" alt="">
+                            </div>
         
-        
+                            <div class="col-12">
+                                <p class="text-white fs-6">
+                                    Website &copy;2021 Sony Interactive Enterrtainment Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protettoda copyright dei rispettivi proprietari. Tutti i diritti riservati. 
+                                    <a class="text-decoration-underline" href="">Maggiori Informazioni</a>
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
 
 
 
 
-
-
-
-
-
-
-
-
+        <!-- bootstrap js -->
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>

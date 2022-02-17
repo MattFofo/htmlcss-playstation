@@ -35,6 +35,7 @@ p {
     font-size: 1.3rem;
 }
 
+/* ******************************** */
 
 /* utility */
 
@@ -51,6 +52,13 @@ p {
 .mt-8 {
     margin-top: 8rem;
 }
+
+.display_contents {
+    display: contents;
+}
+
+
+/* buttons */
 
 .btn_orange {
     background-color: var(--btn_orange_color);
@@ -133,6 +141,20 @@ p {
     transition: border .3s ease-out;
 }
 
+/* ********* */
+
+/* effetti immagini */
+
+.hover_scale_up:hover {
+    transform: scale(1.1);
+}
+
+.hover_scale_up {
+    transition: all .3s ease-out;
+}
+
+/* **************************************** */
+
 
 /* header */
 
@@ -147,7 +169,7 @@ p {
 .sony_header_logo {
     width: 100px;
     padding-top: 1em;
-    padding-bottom: 1em;    
+    padding-bottom: 1em;
 }
 
 .btn_search img {
@@ -176,7 +198,7 @@ p {
 }
 
 
-
+/* ************************************ */
 
 /* section 1 cover returnal */
 
@@ -185,11 +207,11 @@ p {
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
     background-position: center;
-    
+
     background-repeat: no-repeat;
     background-color: aquamarine;
-    height: 700px;   
-    max-width: 100%; 
+    height: 700px;
+    max-width: 100%;
 }
 
 
@@ -202,12 +224,12 @@ p {
 
     .returnal_banner_logo {
         width: 300px;
-        
+
     }
-    
+
 }
 
-
+/* ************************************** */
 
 /* section 2 - cards con immagini cover giochi */
 
@@ -238,7 +260,7 @@ p {
 
 }
 
-
+/* ************************************* */
 
 /* section 3 - playstation 5 */
 
@@ -258,7 +280,7 @@ p {
     border-bottom: 2px solid blue;
     height: 100%;
     opacity: 1;
-    
+
 }
 
 
@@ -266,21 +288,23 @@ p {
     border-bottom: 2px solid transparent;
     height: 100%;
     opacity: 0.7;
-    
+
 }
 
 .card_section_3:hover {
     border-bottom: 2px solid blue;
     opacity: 1;
-    
+
 }
 
+/* ************************************ */
 
 /* section 4 -it takes two */
 
 .section4_cover_img {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 .it_takes_two_logo {
@@ -288,6 +312,7 @@ p {
 }
 
 
+/* ******************************** */
 
 
 /* section 5 - nuove uscite */
@@ -299,6 +324,9 @@ p {
     overflow: hidden;
 
 }
+
+
+/* *************************************** */
 
 
 /* section 6 - esplora playstation 4  */
@@ -313,8 +341,11 @@ p {
     .btn_margin_special {
         margin-top: 63px;
     }
-    
+
 }
+
+
+/* ********************************* */
 
 
 /*  section 7 - playstation plus  */
@@ -335,6 +366,9 @@ p {
 }
 
 
+/* ********************************** */
+
+
 /* section 9 - ps now */
 
 .section_9 {
@@ -351,6 +385,8 @@ p {
     width: 450px;
 }
 
+
+/* ************************************ */
 
 /* footer pagina */
 
