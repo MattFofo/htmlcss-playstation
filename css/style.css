@@ -1,5 +1,9 @@
 :root {
     --btn_orange_color: rgb(205, 61, 15);
+    --btn_primary_color: #2D64E6;
+    --btn_dark_color: #1C1F23;
+    --btn_light_1_color: #D9DADC;
+    --btn_light_2_color: white;
 }
 
 
@@ -51,15 +55,82 @@ p {
 .btn_orange {
     background-color: var(--btn_orange_color);
     color: white;
+    border: 2px solid var(--btn_orange_color);
+}
+
+.btn_orange:hover {
+    border: 2px solid white;
+    color: white;
+}
+
+
+.btn_orange_hover {
+    border: 2px solid var(--btn_orange_color);
+    border-radius: 50rem;
 }
 
 .btn_dark {
-    border: 1px solid #1C1F23;
+    border: 2px solid #1C1F23;
 }
 
 
 .btn_dark:hover {
-    border: 1px solid white;
+    border: 2px solid white;
+}
+
+.btn_dark_hover {
+    border: 2px solid #1C1F23;
+    border-radius: 50rem;
+}
+
+
+.btn_primary {
+    border: 2px solid var(--btn_primary_color);
+}
+
+.btn_primary_hover {
+    border: 2px solid var(--btn_primary_color);
+    border-radius: 50rem;
+}
+
+.btn_primary:hover {
+    border: 2px solid white;
+}
+
+.btn_light_1 {
+    background-color: var(--btn_light_1_color);
+    border: 2px solid  var(--btn_light_1_color);
+    color: blue;
+
+}
+
+.btn_light_1_hover {
+    border: 2px solid  var(--btn_light_1_color);
+    border-radius: 50rem;
+
+}
+
+.btn_light_1:hover {
+    border: 2px solid white;
+    color: white;
+}
+
+.btn_light_2 {
+    background-color: var(--btn_light_2_color);
+    border: 2px solid var(--btn_light_2_color);
+}
+
+.btn_light_2_hover {
+    border: 2px solid var(--btn_light_2_color);
+    border-radius: 50rem;
+}
+
+.btn_light_2:hover {
+    border: 2px solid #161C3B;
+}
+
+.btn {
+    transition: border .3s ease-out;
 }
 
 
@@ -105,10 +176,6 @@ p {
 }
 
 
-.btn_dark_hover {
-    border: 3px solid #1C1F23;
-    border-radius: 50rem;
-}
 
 
 /* section 1 cover returnal */
@@ -252,6 +319,9 @@ p {
 
 /*  section 7 - playstation plus  */
 
+.section_7 {
+    background-color: #BEBCBB;
+}
 
 .section_7 .ps_plus_logo {
     width: 250px;
@@ -267,6 +337,9 @@ p {
 
 /* section 9 - ps now */
 
+.section_9 {
+    background-color: #161C3B;
+}
 
 .section_9 .ps_now_logo {
     width: 250px;
@@ -318,8 +391,3 @@ footer a {
 }
 
 
-
-.prova {
-    max-width: 100%;
-    height: auto;
-}
