@@ -62,6 +62,8 @@ p {
 }
 
 
+
+
 /* buttons */
 
 .btn_orange {
@@ -369,8 +371,11 @@ p {
 }
 
 .section_7 .ps_plus_monthly_game {
-    width: 450px;
     height: 100%;
+    width: 450px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 
@@ -391,6 +396,10 @@ p {
 
 .section_9 .ps_now_monthly_game {
     width: 450px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 
