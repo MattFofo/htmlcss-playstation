@@ -7,7 +7,8 @@
     --p_color: grey;
 }
 
-.img_fix{
+/* c'è già la classe bootstrap (img-fluid) */
+.img_fix{                   
     max-width: 100%;
     height: auto;
 }
@@ -319,6 +320,7 @@ p {
 
 .it_takes_two_logo {
     width: 300px;
+    max-width: 60%;
 }
 
 
